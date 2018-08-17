@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.interactionapp.controller.MainActivity">
+
+    <item android:id="@+id/action_search"
+        android:title="@string/rafraichir"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:queryHint="Rechercher une ville..."
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_star"
+        android:title="@string/rafraichir"
+        android:icon="@drawable/ic_fav_no"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_info"
+        android:icon="@drawable/ic_action_info"
+        android:title="Informations"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/rafraichir"
+        app:showAsAction="never"/>
+
+</menu>

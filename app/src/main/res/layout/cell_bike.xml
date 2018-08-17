@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rootLayoutRvBike"
+        android:background="?selectableItemBackground"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvRvBikeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom station"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivCB"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:adjustViewBounds="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_card" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvRvEtat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Etat station"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvRvCommune"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commune station" />
+
+        <TextView
+            android:id="@+id/tvRvAdresse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adresse station" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="V : "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvRvStationBikeAvailable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="0"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" B : "
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvRvStationBorneAvailable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bike"
+            android:icon="@drawable/ic_bike"
+            android:checkable="true"
+            android:title="@string/localiser_les_velos" />
+        <item
+            android:id="@+id/nav_parking"
+            android:icon="@drawable/ic_parking"
+            android:title="@string/localiser_les_parkings" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_star_nav"
+            android:title="@string/nav_fav" />
+
+        <item
+            android:id="@+id/nav_apropos"
+            android:icon="@drawable/ic_apropos"
+            android:title="@string/a_propos" />
+    </group>
+</menu>

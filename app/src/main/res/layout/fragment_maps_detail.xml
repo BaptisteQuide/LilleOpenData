@@ -1,0 +1,7 @@
+<com.google.android.gms.maps.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapViewDetail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="project.baptisteq.projectlillenopendata.fragment.MapsGlobal" />
+

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjectLillenOpenData</string>
+    <string name="title_activity_maps_bike">Lille Open</string>
+    <string name="localiser_les_velos">Localiser les vélos</string>
+    <string name="localiser_les_parkings">Localiser les parkings</string>
+    <string name="a_propos">Contact</string>
+    <string name="preferences">Preferences</string>
+    <string name="separatorstring"> - </string>
+    <string name="title_activity_bike">BikeActivity</string>
+    <string name="rafraichir">Rafraichir</string>
+    <string name="vlille">VLille</string>
+
+
+    <string name="no_internet_message">Actualisation impossible. Vérifiez votre connexion</string>
+    <string name="records_null_from_server">NULL from server</string>
+    <string name="retry">Réessayer</string>
+    <string name="detail_vlille">Detail station</string>
+    <string name="libelle_km">km.</string>
+    <string name="search_ville">Rechercher une ville...</string>
+    <string name="nav_fav">Favoris</string>
+    <string name="libelle_fav">Favoris</string>
+
+</resources>
